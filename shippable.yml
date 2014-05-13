@@ -10,3 +10,5 @@ jdk:
 branches:
   only:
     - master
+before_script:
+   - echo $HELLO_1 $WORLD_2
