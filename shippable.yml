@@ -1,0 +1,12 @@
+language: scala
+scala:
+   - 2.11.0
+env:
+ global:
+  - HELLO_1=hello
+  - WORLD_2=world
+jdk:
+   - oraclejdk8
+branches:
+  only:
+    - master
